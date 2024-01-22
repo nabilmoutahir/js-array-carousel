@@ -1,0 +1,42 @@
+.bordered {
+    border: 1px dashed red;
+}
+
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container {
+    width: 60vw;
+    height: 60vh;
+
+    position: relative;
+}
+
+.arrow-top, .arrow-bot{
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.arrow-top{
+    top: 15px;
+}
+
+.arrow-bot{
+    bottom: 15px;
+}
