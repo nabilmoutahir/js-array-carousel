@@ -12,10 +12,25 @@
 }
 
 .carousel-container {
-    width: 60vw;
-    height: 60vh;
+    width: 70vw;
+    height: 80vh;
 
     position: relative;
+}
+
+.img-container {
+    height: 100%;
+}
+
+.slides {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 .arrow-top, .arrow-bot{
