@@ -18,18 +18,18 @@
     position: relative;
 }
 
-.img-container {
+.img_container {
     height: 100%;
 }
 
 .slides {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: none;
 }
 
-.active {
+.slides.active {
     display: block;
 }
 
@@ -38,6 +38,7 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    cursor: pointer;
 
     display: flex;
     justify-content: center;
