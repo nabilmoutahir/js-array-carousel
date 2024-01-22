@@ -70,3 +70,30 @@ arrowBot.addEventListener ('click', function(){
     nextSlide.classList.add('active')
 });
 
+// Freccia top precedente
+arrowTop.addEventListener ('click', function(){
+
+    // recupero slides
+    const allSlides = document.getElementsByClassName('slides');
+
+    // recupero img con sia classe slide che active
+    const currentSlide = document.querySelector('.slides.active');
+
+    // rimuovo classe active
+    const currentSlideSlide = allSlides[slideIndex];
+    currentSlide.classList.remove('active');
+
+    // decremento valore slide mostrata
+    slideIndex;
+
+    // condizione se il volore della slide mostrata è uguale al primo elemento dell'array torna al primo
+    if(slideIndex <= 0){
+        slideIndex = allSlides.length - 1;
+    } else {
+        slideIndex--;
+    }
+
+    // aggiungo la classe
+    const nextSlide = allSlides[slideIndex];
+    nextSlide.classList.add('active')
+});
