@@ -34,8 +34,11 @@ Consigli del giorno:
 ## SVOLGIMENTO
 
 - recupero elementi
+
 - creo array
+
 - creo ciclo for per scorrere immagini
+
 - aggiungo condizione se:
 
     - l'elemento dll'array è uguale al valore della variabile assegnerò la classe che permette di visualizzarlo
@@ -49,3 +52,23 @@ Consigli del giorno:
     - rimuovo la classe che permette la visualizzazione dall'elemento precendente
     
     - aggiungo la classe all'elemento successivo
+
+    - se: 
+
+        - il contatore arriva all'ultimo elemento dll'array ritorna al primo
+
+        - altrimenti continua all'elemento successivo
+
+- l'event listener prev
+
+    - rimuovo la classe che permette la visualizzazione dall'elemento precendente
+    
+    - aggiungo la classe all'elemento successivo
+
+    - se: 
+
+        - il contatore arriva al primo elemento dll'array ritorna al all'ultimo
+
+        - altrimenti continua all'elemento successivo
+
+
