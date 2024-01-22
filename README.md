@@ -32,3 +32,20 @@ Consigli del giorno:
 3. Al momento giusto (ihihhi starà a voi capire quale) rispondete a questa domanda: "Quanti cicli servono?"
 
 ## SVOLGIMENTO
+
+- recupero elementi
+- creo array
+- creo ciclo for per scorrere immagini
+- aggiungo condizione se:
+
+    - l'elemento dll'array è uguale al valore della variabile assegnerò la classe che permette di visualizzarlo
+
+    - altrimenti non l'assegnerò
+
+- aggiungo event listener sulle freccie
+
+- l'event listener next
+
+    - rimuovo la classe che permette la visualizzazione dall'elemento precendente
+    
+    - aggiungo la classe all'elemento successivo
