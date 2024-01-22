@@ -14,3 +14,7 @@ const arrowTop = document.getElementById("a-prev");
 // valore slide mostrata
 let slideIndex = 0
 
+// # CREO ARRAY
+const imagesCarousel = ['01.webp', '02.webp', '03.webp', '04.webp', '05.webp'];
+console.log(imagesCarousel);
+
