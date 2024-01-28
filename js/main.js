@@ -97,3 +97,33 @@ arrowTop.addEventListener ('click', function(){
     const nextSlide = allSlides[slideIndex];
     nextSlide.classList.add('active')
 });
+
+
+function slidesInterval() {
+
+    // recupero slides
+    const allSlides = document.getElementsByClassName('slides');
+
+    // recupero img con sia classe slide che active
+    const currentSlide = document.querySelector('.slides.active');
+
+    // rimuovo classe active
+    const currentSlideSlide = allSlides[slideIndex];
+    currentSlide.classList.remove('active');
+
+    // incremento valore slide mostrata
+    slideIndex;
+
+    // condizione se il volore della slide mostrata è uguale all'ultimo elemento dell'array torna al primo
+    if(slideIndex >= imagesCarousel.length - 1){
+        slideIndex = 0;
+    } else {
+        slideIndex++;
+    }
+
+    // aggiungo la classe
+    const nextSlide = allSlides[slideIndex];
+    nextSlide.classList.add('active')
+
+}
+
