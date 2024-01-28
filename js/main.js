@@ -99,6 +99,12 @@ arrowTop.addEventListener ('click', function(){
 });
 
 
+
+
+const clock = setInterval(slidesInterval, 3000);
+
+
+
 function slidesInterval() {
 
     // recupero slides
